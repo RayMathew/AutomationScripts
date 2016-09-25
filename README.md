@@ -14,6 +14,7 @@ Summary Of Scripts:
       Reduces the size of all images in a folder to the dimensions specified inside the script. Original images remain unaltered.
 
 
+
 All Python scripts have been written with version 2.7 - you need to install it in your computer for these scripts to work (https://www.python.org/downloads/release/python-2711/). For 32-bit Windows, choose Windows x86 MSI installer from the link.
 
 
