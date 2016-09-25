@@ -4,7 +4,7 @@ This is a fun personal project to learn automation. As of now (25th Sept 2016) I
 Download and use freely. Open them with a Text Editor first, to see further instructions on how to use them.
 
 Summary Of Scripts:
-  1. ChromeOpenSites.py:
+  1. ChromeOpenSites.py:\n
       Opens your Chrome and a specific list of websites. You can change the list as well as the browser.
       
   2. ResizeImage.py:
