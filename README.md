@@ -15,7 +15,8 @@ Summary Of Scripts:
    
   3. Shortcuts.py:
   
-      Enables you to open any application, file or folder that doesn't require Administrator privileges. Set the target yourself, as    well as the input name which allows you to call the target. Examples are given in the script. 
+      Enables you to open any application, file or folder that doesn't require Administrator privileges. Set the target yourself, as    well as the input name for it. Examples are given in the script. 
+      
       Tip: Save this script anywhere in your computer, create a shortcut, and save the shortcut in C:\ProgramData\Microsoft\Windows\Start Menu\Programs. Then give it a shortcut key by right clicking on it and selecting Properties --> Shortcut --> Shortcut key. This allows you to call the script from anywhere, which is the whole point of it anyway.
 
 
