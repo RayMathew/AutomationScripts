@@ -23,5 +23,5 @@ Summary Of Scripts:
 All Python scripts have been written with version 2.7 - you need to install it in your computer for these scripts to work (https://www.python.org/downloads/release/python-2711/). For 32-bit Windows, choose Windows x86 MSI installer from the link.
 
 
-Tip - You could run these scripts with Windows' Task Scheduler. For example, every time a user logs on, Chrome opens with your pre-defined list of websites.
+You could run these scripts with Windows' Task Scheduler. For example, every time a user logs on, Chrome opens with your pre-defined list of websites.
 
