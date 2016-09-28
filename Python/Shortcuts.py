@@ -2,6 +2,7 @@ import wx
 import subprocess
 import webbrowser
 import os
+import ctypes
 
 
 #The primary library for this script is wxpython, which needs to be downloaded and installed from here: https://www.wxpython.org/download.php
@@ -60,3 +61,6 @@ elif x == "note":
 #sending commands to Command Prompt:
 elif x =="EnvV" or x == "envv":
     os.system('rundll32.exe sysdm.cpl,EditEnvironmentVariables')
+
+else:
+    ctypes.windll.user32.MessageBoxW(0, u"Unknown shortcut. Go to (Location of your script) and check the shortcut name, or create a new shortcut", u"Unknown shortcut", 1)
