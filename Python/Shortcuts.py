@@ -2,7 +2,6 @@ import wx
 import subprocess
 import webbrowser
 import os
-from subprocess import call
 
 
 #The primary library for this script is wxpython, which needs to be downloaded and installed from here: https://www.wxpython.org/download.php
@@ -48,7 +47,7 @@ elif x == "google":
 
 #opening a browser in incognito mode:
 elif x == "GoogleI" or x == "googlei":
-    call("\"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe\" -incognito https://www.google.co.in", shell=True)
+    subprocess.call("\"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe\" -incognito https://www.google.co.in", shell=True)
 
 #opening a .exe app:
 elif x == "steam" or x == "Steam":
