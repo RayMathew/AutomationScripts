@@ -62,5 +62,5 @@ elif x == "note":
 elif x =="EnvV" or x == "envv":
     os.system('rundll32.exe sysdm.cpl,EditEnvironmentVariables')
 
-else:
-    ctypes.windll.user32.MessageBoxW(0, u"Unknown shortcut. Go to (Location of your script) and check the shortcut name, or create a new shortcut", u"Unknown shortcut", 1)
+#else:
+#    ctypes.windll.user32.MessageBoxW(0, u"Unknown shortcut. Go to (Location of your script) and check the shortcut name, or create a new shortcut", u"Unknown shortcut", 1)
