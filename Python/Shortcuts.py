@@ -20,6 +20,7 @@ app.MainLoop()
 
 x = ask(message = 'Where to?')
 
+MessageBox = ctypes.windll.user32.MessageBoxW
 
 # This is where you can customize both the shortcut name and the shortcut target, according to your needs. Multiple names can be used to open the same target.
 # The pseudo-code is: 
@@ -62,5 +63,6 @@ elif x == "note":
 elif x =="EnvV" or x == "envv":
     os.system('rundll32.exe sysdm.cpl,EditEnvironmentVariables')
 
-#else:
-#    ctypes.windll.user32.MessageBoxW(0, u"Unknown shortcut. Go to (Location of your script) and check the shortcut name, or create a new shortcut", u"Unknown shortcut", 1)
+#using the windows error message dialogue box
+elif x == "meow":
+    MessageBox(None, u'meow!', u'', 0)
