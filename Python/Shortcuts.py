@@ -41,7 +41,7 @@ MessageBox = ctypes.windll.user32.MessageBoxW
 
 # opening a folder:
 if x == "Downloads" or x == "d":
-    subprocess.Popen(r'explorer /select,"C:\Users\RayM\Downloads"')
+    subprocess.call("explorer C:\\Users\\RayM\\Downloads", shell=True)
 
 #opening any website, using any browser:
 elif x == "google":
