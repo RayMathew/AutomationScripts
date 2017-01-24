@@ -63,6 +63,13 @@ elif x == "note":
 elif x =="EnvV" or x == "envv":
     os.system('rundll32.exe sysdm.cpl,EditEnvironmentVariables')
 
+#starting and stopping wifi hotspot:
+elif x =="starths":
+    subprocess.call("netsh wlan start hostednetwork")
+
+elif x=="stophs":
+    subprocess.call("netsh wlan stop hostednetwork")
+
 #using the windows error message dialogue box
 elif x == "meow":
     MessageBox(None, u'meow!', u'', 0)
