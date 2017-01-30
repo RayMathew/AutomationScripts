@@ -63,6 +63,10 @@ elif x == "note":
 elif x =="EnvV" or x == "envv":
     os.system('rundll32.exe sysdm.cpl,EditEnvironmentVariables')
 
+#Add/Remove Programs shortcut:
+elif x == "arp":
+    os.system('rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl')
+
 #starting and stopping wifi hotspot:
 elif x =="starths":
     subprocess.call("netsh wlan start hostednetwork")
