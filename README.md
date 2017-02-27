@@ -26,7 +26,7 @@ Summary Of Scripts:
     
       It performs the same function as NetConnectionCheck.py, and also plays a slideshow of pictures from a folder of your choice while the net connection check is done in the background. When the net connection is re-established the slideshow closes on its own. If you understand how to code in Python, this slideshow can be replaced with any other distraction, like a video, a song, a movie, etc. Tip: You could add this script to the list of shortcuts in Shortcuts.py above. 
       
- 6. NetLogin.py:
+  6. NetLogin.py:
  
     It logs into my internet portal and then asks if the Wi-Fi hotspot should be started. If you type 'y' a confirmation dialog box pops up.
 
