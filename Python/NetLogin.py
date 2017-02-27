@@ -37,6 +37,7 @@ app.MainLoop()
 x = ask(message = 'Start Hotspot?')
 
 if x=="y":
+    #start hotspot if user enter 'y' into the textfield.
     subprocess.call("netsh wlan start hostednetwork")
     ctypes.windll.user32.MessageBoxW(0,u"Hotspot Started!",u"", 1)
     MessageBox(None, u'Hotspot Started.', u'', 0)
