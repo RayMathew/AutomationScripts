@@ -28,7 +28,7 @@ Summary Of Scripts:
       
   6. NetLogin.py:
  
-    It logs into my internet portal and then asks if the Wi-Fi hotspot should be started. If you type 'y' a confirmation dialog box pops up.
+    It logs into my internet portal and then asks if the Wi-Fi hotspot should be started. If you type 'y' a confirmation dialog box pops up. Windows Task Scheduler runs this script when the computer starts up.
 
 
 
