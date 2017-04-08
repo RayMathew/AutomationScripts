@@ -20,16 +20,23 @@ size = (300,300)
 # Specify the location of your folder of images here. The folder should not contain any non-image files.
 # Either use single forward slashes (/) or double backward slashes (\\) to denote going into a file (In Windows).
 
-filePath = "C:/Users/RayM/Desktop/python/images"
-
-
+print "Enter location of folder of images"
+filePath = raw_input()#"C:/Users/RayM/Desktop/compressjpeg/practice"
 newFilePath = ""
-array = filePath.split("/")
+
+if filePath.__contains__("/"):
+    array = filePath.split("/")
+else:
+    array = filePath.split("\\")
+    
 if array[array.__len__()-1]=="":
     filePath = filePath[:filePath.__len__()-1]
     newFilePath = filePath[:filePath.__len__() - array[array.__len__() - 2].__len__()] + "ResizedImages"
+    print newFilePath
 else:
+    print "Given file path: "+filePath
     newFilePath = filePath[:filePath.__len__() - array[array.__len__() - 1].__len__()] + "ResizedImages"
+    print "Location of resized images: "+newFilePath
 
 
 #The resized images are created in a new folder called "ResizedImages", in the same directory as your current folder of images.
