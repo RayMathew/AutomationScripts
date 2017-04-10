@@ -1,7 +1,7 @@
 # AutomationScripts
 
 This is a fun personal project to learn automation. As of now (25th Sept 2016) I'm focusing on Python in Windows OS alone, and kiddie scripts at that.
-Download and use freely. Open them with a Text Editor first, to see further instructions on how to use them.
+Open them with a Text Editor first, to see further instructions on how to use them.
 
 
 Summary Of Scripts:
